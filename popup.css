@@ -1,0 +1,55 @@
+/* Mides generals del popup */
+html, body {
+  width: 380px;   /* ample  */
+  height: 320px;  /* alçada */
+  margin: 0;
+  padding: 0;
+  background: #000;
+  overflow: hidden;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+/* Contenidor superior on va el rellotge */
+#frame-wrap {
+  width: 100%;
+  height: 260px;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ha de coincidir EXACTAMENT amb el canvas intern */
+iframe#rellotgeFrame {
+  width: 360px;
+  height: 260px;
+  border: 0;
+  background: transparent;
+}
+
+/* Zona inferior dels botons */
+.controls {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #222;
+  padding: 4px;
+}
+
+/* Estil dels botons */
+button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.22);
+  transform: scale(1.05);
+}

@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Rellotge Creatiu - Repte 3",
+  "version": "1.0",
+  "description": "Rellotge creatiu.",
+  "icons": { "48": "icon48.png", "128": "icon128.png" },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon48.png"
+  },
+  "permissions": ["storage"],
+  "web_accessible_resources": [
+    {
+      "resources": ["rellotge/p5.min.js", "rellotge/rellotge.html", "rellotge/PressStart2P-Regular.ttf"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8" />
+  <title>Rellotge Creatiu</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+
+  <!-- Marc contenidor del rellotge -->
+  <div id="frame-wrap">
+  <!-- Popup principal del Rellotge Creatiu. -->
+    <iframe id="rellotgeFrame" src="rellotge/rellotge.html" frameborder="0" scrolling="no"></iframe>
+  </div>
+
+  <!-- Botons de control -->
+  <div class="controls">
+    <button id="colorBtn">Canvi de color</button>
+    <button id="fonsBtn">Canvi de fons</button>
+    <button id="horaBtn" data-active="false">Mostra hora digital</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
