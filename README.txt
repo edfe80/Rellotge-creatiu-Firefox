@@ -36,5 +36,4 @@ icon2.png
 
 ## Comunicació
 
-Els botons de la interfície envien missatges a l'iframe mitjançant `postMessage()`, i el rellotge respon amb l'estat actual.
-
+Els botons de la interfície envien missatges a l'iframe mitjançant `postMessage()`.
