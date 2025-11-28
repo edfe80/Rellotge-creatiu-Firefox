@@ -4,10 +4,10 @@
 
 ## Funcionalitats
 
-- Possibilitat d'alternar entre dues **paletes de colors.
-- Opció per canviar el fons d’estrelles** (petites o grans i brillants).
+- Possibilitat d'alternar entre dues paletes de colors.
+- Opció per canviar el fons d’estrelles (petites o grans i brillants).
 - Activar l'hora digital.
-- Interfície construïda amb elements del **DOM** nadius i estil CSS personalitzat.
+- Interfície construïda amb elements del DOM i estil CSS personalitzat.
 
 ## Mida del canvas
 
